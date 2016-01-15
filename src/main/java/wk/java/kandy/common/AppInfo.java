@@ -8,7 +8,7 @@ public abstract class AppInfo {
 	private static final Log log = LogFactory.getLog(AppInfo.class);
 	
 	public static void registerInfo() {
-		
+		log.trace("registing app info");
 	}
 
 }
